@@ -1,1 +1,1 @@
-declare type DeepPartial<T> = Partial<T>;
+export declare type DeepPartial<T> = Partial<T>;
