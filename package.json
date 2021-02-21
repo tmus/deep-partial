@@ -2,17 +2,20 @@
   "name": "@tomysmith/deep-partial",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "prepublish": "tsc",
     "test": "echo \"Todo: write tests\" && exit 0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "types": "index.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "np": "^7.4.0"
+    "np": "^7.4.0",
+    "typescript": "^4.1.5"
   }
 }
