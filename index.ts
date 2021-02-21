@@ -1,1 +1,1 @@
-export type DeepPartial<T> = Partial<T>;
+export type DeepPartial<T> = { [P in keyof T]?: DeepPartial<T[P]> };
