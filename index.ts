@@ -1,1 +1,1 @@
-type DeepPartial<T> = Partial<T>;
+export type DeepPartial<T> = Partial<T>;
