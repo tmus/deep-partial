@@ -1,12 +1,16 @@
 {
   "name": "@tomysmith/deep-partial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript package that enables deep partial types to be created.",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Todo: write tests\" && exit 0"
   },
-  "keywords": ["typescript", "partial", "generics"],
+  "keywords": [
+    "typescript",
+    "partial",
+    "generics"
+  ],
   "author": "Tomy Smith <me@tomm.us> https://github.com/tmus",
   "repository": {
     "type": "git",
