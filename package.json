@@ -11,5 +11,8 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "np": "^7.4.0"
   }
 }
